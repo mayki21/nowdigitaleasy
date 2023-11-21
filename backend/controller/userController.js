@@ -33,29 +33,7 @@ const getDetail=async(req,res)=>{
 }
 
 
-// const updateDetail=async(req,res)=>{
-//     try {
-//         const upDate=req.body
-//         const upsucess=await 
-//     } catch (error) {
-        
-//     }
-// }
 
-
-// const getSingleUser = async (req, res) => {
-//     try {
-//       const { userId } = req.params;
-//       const user = await User.findById(userId);
-//       if (!user) {
-//         return res.status(404).json({ message: 'User not found' });
-//       }
-//       res.status(200).json({ user });
-//     } catch (error) {
-//       console.error('Error getting user:', error);
-//       res.status(500).json({ message: 'Error getting user' });
-//     }
-//   };
 
 
 const getSingleUser=async(req,res)=>{
@@ -73,12 +51,7 @@ const getSingleUser=async(req,res)=>{
     }
 }
 
-// const updateUser=async(req,res)=>{
-//     const {userId}=req.params
-//     const data=req.body
-    
 
-// }
 
 exports.updateUser = async (req, res) => {
     try {
