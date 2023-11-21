@@ -1,6 +1,6 @@
 # Project Name
 
-A brief description of your project.
+The project aims to provide a robust backend solution using Node.js and MongoDB for managing user data. It offers a set of RESTful APIs to perform CRUD operations on user details, facilitating functionalities such as user addition, retrieval, update, and deletion.
 
 ## Table of Contents
 
